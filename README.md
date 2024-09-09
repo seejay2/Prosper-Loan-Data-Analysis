@@ -22,3 +22,11 @@ The dataset contains various features related to loans, including but not limite
 * DebtToIncomeRatio: A ratio indicating the borrower's total debt payments to their income.
 * ProsperRating (Alpha): A categorical rating assigned to the borrower based on their credit risk.
 * LoanStatus: The current status of the loan (e.g., Current, Completed, Defaulted).
+
+## Summary of Findings
+
+* Distribution of Credit Scores: Most borrowers fall within a specific credit score range, indicating a concentration of applicants with moderate credit risk. This distribution helps in understanding the general creditworthiness of borrowers in the dataset.
+
+* Credit Score vs. Loan Amount Relationship: Borrowers with higher credit scores tend to receive larger loan amounts, highlighting that lenders are more inclined to approve larger loans to individuals with lower credit risk. There is also variability in loan amounts for different credit scores, with some outliers indicating unique cases.
+
+* Interactions Among Financial Variables: The pair plot reveals several patterns and relationships among key financial variables. For instance, BorrowerAPR and CreditScoreRangeLower show a negative relationship, indicating that higher credit scores generally result in lower APRs. The plot also shows how different Prosper Ratings influence these variables, with distinct clusters for different ratings.
